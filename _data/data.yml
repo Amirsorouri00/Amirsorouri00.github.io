@@ -1,0 +1,182 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Amirhossein Sorouri
+    tagline: Software Designer && Full Stack Developer
+    avatar: IMG-20180502-WA0080.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: amirsorouri26@gmail.com
+    phone: +98912 8048897
+    website: amirsorouri00.github.io/online-cv/ #do not add http://
+    linkedin: amirsorouri00-amirhossein/
+    github: Amirsorouri00
+    gitlab: amirsorouri26
+    bitbucket:
+    #twitter: '@webjeda'
+    stack-overflow: 5889320/amir-hossein-sorouri # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional Working Proficiency
+
+      - idiom: Persian
+        level: Native
+
+      - idiom: Arabic
+        level: Business Level
+
+    interests:
+      - item: Piano
+        link:
+
+      - item: Listening to Music
+        link:
+
+      - item: Cooking
+        link:
+
+#career-profile:
+#    title: Samsung AUT Tech
+#    summary: |
+      
+
+#      Second paragraph if required.
+
+education:
+    - degree: MSc in Computer Software Engineering
+      university: Iran University of Science and Technology
+      time: 2018 - Present
+      details: |
+        I am researching on Storage, File System and also on the High Performance Computing(HPC) area. 
+          - Ranked 91 and 170 in Iran's M.Sc. nationwide entrance Exam(2018).
+          - Advisor Professor: Mohsen Sharifi@IUST
+          
+    - degree: BSc Computer Engineering-Information Technology
+      university: Isfahan University of Technology
+      time: 2014 - 2018
+      details: |
+        
+          - Grade: 16.8
+          - Advisor Professor: Massoud Reza Hashemi@IUT
+          - Ranked 1707 between at least 300k participants in Iran's M.Sc. nationwide entrance Exam in 2018.
+          - Project Title: Optimizing Internet Of Things network Processes via Fog Computing Concepts and Serverless Techniques.
+experiences:
+    - role: Software Engineer 
+      time: 2017 - 2018
+      company: Isfahan Scientific Research Campus, Isfahan
+      details: |
+        Working/Researching on the Blockchain token implementation that can be helpful for motivating human resources,
+        and customers of every organization.
+          - Ethereum
+          - etc
+    - role: Trainee of Network Security
+      time: 2017
+      company: National Library of Islamic Republic of Iran, Network Security Office, Tehran
+      details: |
+        I was responsible for implementing network scenarios using Cisco Devices[2960, 3850, ASA firewall series], 
+        HP G6 server, Client Systems, Virtualization Tools[ESXI, VSphere, VCenter, Workstation], Network Monitoring Tools[PRTG]
+        Windows Server 2016 services[DHCP, Active Directory]. I did this Project under the supervision of the manager of the Office "Ali Arab Ameri"
+        I also learned Help Desking on the Help Desk Office of the NLAI organization under the supervision of the 
+        Manager of the office Mr Mazinani.
+          - Importance of Network Domain and it's use cases.
+          - Power Maintenance techniques.
+          - Troubleshooting and installing CPU
+          - etc
+    - role: Software Designer && Full Stack Developer 
+      time: 2018 - Present
+      company: Praxo Startup@Samsung Aut Tech, Tehran
+      details: |
+        We are about to develop Healthcare Platform and some of the side required tools, which can be very helpful for 
+        both Patients/Customers and Doctors/Healthcare Systems.
+        I am Software Designer and Full Stack Developer. Since the first day, I implemented a purified 
+        SPA framework via pure Javacript. I also implemented one of our platforms using our Js framework and Django.
+projects:
+    title: Projects
+    intro: >
+      
+    assignments:
+      - title: Online (Web Application) Examiner System Based on Game Theory
+        link: "#hook"
+        tagline: "It is the result of  integration of 8 sub-projects of 8 team undergraduate course Software Engineering. Our team was responsible for developing “Turn Rating and Grades Database” part of the system and I was head of the team. We had the most important part of the whole application (almost we were at the center). I was responsible for documenting results before and after starting each step in tems of software engineering. Finally we developed the application and on the march 2017 we succeded and 15 students was present for testing the final application.It is done under the supervision of DR. Faramarz Hendessi. You can see our part of the Application on my Github."
+
+      - title: Stratego AI Game Player   
+        link: "#"
+        tagline: "It is the result of Advanced Programming Course of BSc. I implemented this player having Contribution with Mostafa Lesani(My teammate). Finally this Game ranked One on both between about 20 teams from inside IUT and other participants inside contest of the IUT from inside and outside IUT. This project is accessible from my Github."
+
+      #- title: Tempo
+      #  link: "#"
+      #  tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      #- title: Atom
+      #  link: "#"
+      #  tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      #- title: Delta
+      #  link: "#"
+      #  tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        
+#publications:
+#    title: Accomplishments
+#    intro: |
+#      I have the Following Certificates.
+
+#    papers:
+#      - title: The Art of Computer Programming
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#      - title: A syntax directed compiler for Algol 60
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+        
+publications:
+    title: Accomplishments
+    intro: |
+      
+    papers:
+      - title: Network+
+        authors: CompTia
+        conference: 2016
+
+      - title: CCNA
+        authors: Cisco
+        conference: 2018
+
+      - title: CCNP Route & Switch
+        authors: Cisco
+        conference: 2018-2019
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python, Django
+        level: 98%
+
+      - name: Javascript & jQuery, Node
+        level: 98%
+
+      - name: React JS
+        level: 60%
+
+      - name: Cisco
+        level: 75%
+
+      - name: Virtualization[ESXI, Container, VSphere]
+        level: 75%
+
+      - name: Avg(C, C++ , Php, Laravel, Java)
+        level: 70%
