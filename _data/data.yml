@@ -7,7 +7,7 @@ sidebar:
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Amirhossein Sorouri
+    name: Amir Hossein Sorouri
     tagline: Software Designer && Full Stack Developer
     avatar: IMG-20180502-WA0080.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
